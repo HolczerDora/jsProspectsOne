@@ -1,9 +1,9 @@
-var index=0;
+var index = 0;
 
-function changeColors(){
+function changeColors() {
     var colors = ["red","#953553", "blue","orange","yellow","green","purple"];
     document.getElementsByTagName("body")[0].style.background = colors[index++];
 
     if(index > colors.length -1)
-    index =0;
+    index = 0;
 }
